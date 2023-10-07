@@ -65,6 +65,24 @@ let g:terminal_color_13 = '#ff6ac1'
 let g:terminal_color_14 = '#9aedfe'
 let g:terminal_color_15 = '#eff0eb'
 
+" PICO8
+let  color0   =  '#000000'
+let  color1   =  '#1d2b53'
+let  color2   =  '#7e2553'
+let  color3   =  '#008751'
+let  color4   =  '#ab5236'
+let  color5   =  '#5f574f'
+let  color6   =  '#c2c3c7'
+let  color7   =  '#fff1e8'
+let  color8   =  '#ff004d'
+let  color9   =  '#ffa300'
+let  color10  =  '#ffec27'
+let  color11  =  '#00e43c'
+let  color12  =  '#29adff'
+let  color13  =  '#83769c'
+let  color14  =  '#ff77a8'
+let  color15  =  '#ffccaa'
+
 "hi CTagsMember -- no settings --
 "hi CTagsGlobalConstant -- no settings --
 "hi Ignore -- no settings --
@@ -216,3 +234,21 @@ endif
 "coc
 hi CocHighlightText guifg=#00cc00 gui=underline
 hi CocMenuSel guifg=#00cc00 gui=underline guibg=#010101
+
+" PICO8
+:exe  'highlight  color0        guifg='.color0.'    guibg='.color0.''
+:exe  'highlight  color1        guifg='.color1.'    guibg='.color1.''
+:exe  'highlight  color2        guifg='.color2.'    guibg='.color2.''
+:exe  'highlight  color3        guifg='.color3.'    guibg='.color3.''
+:exe  'highlight  color4        guifg='.color4.'    guibg='.color4.''
+:exe  'highlight  color5        guifg='.color5.'    guibg='.color5.''
+:exe  'highlight  color6        guifg='.color6.'    guibg='.color6.''
+:exe  'highlight  color7        guifg='.color7.'    guibg='.color7.''
+:exe  'highlight  color8        guifg='.color8.'    guibg='.color8.''
+:exe  'highlight  color9        guifg='.color9.'    guibg='.color9.''
+:exe  'highlight  color10        guifg='.color10.'    guibg='.color10.''
+:exe  'highlight  color11        guifg='.color11.'    guibg='.color11.''
+:exe  'highlight  color12        guifg='.color12.'    guibg='.color12.''
+:exe  'highlight  color13        guifg='.color13.'    guibg='.color13.''
+:exe  'highlight  color14        guifg='.color14.'    guibg='.color14.''
+:exe  'highlight  color15        guifg='.color15.'    guibg='.color15.''

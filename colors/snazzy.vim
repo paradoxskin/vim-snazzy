@@ -34,6 +34,9 @@ let  blue     =  '#57c7ff'
 let  magenta  =  '#ff6ac1'
 let  cyan     =  '#9aedfe'
 
+" Add
+let  dark_green    =  '#10c010'
+
 " Grayscale
 let  ui_0     =  '#F9F9F9'
 let  ui_1     =  '#f9f9ff'
@@ -125,15 +128,15 @@ let  color15  =  '#ffccaa'
 :exe  'highlight  Label           guifg='.yellow.'   guibg=NONE        guisp=NONE        gui=bold       ctermfg=229   ctermbg=NONE  cterm=bold'
 :exe  'highlight  PMenuSel        guifg='.green.'    guibg='.ui_9.'    guisp='.ui_9.'    gui=NONE       ctermfg=84    ctermbg=239   cterm=NONE'
 :exe  'highlight  Search          guifg='.ui_11.'    guibg='.yellow.'  guisp='.yellow.'  gui=NONE       ctermfg=237   ctermbg=229   cterm=NONE'
-:exe  'highlight  CurSearch       guifg='.ui_7.'    guibg='.yellow.'  guisp='.yellow.'  gui=NONE       ctermfg=121   ctermbg=229   cterm=standout'
+:exe  'highlight  CurSearch       guifg='.ui_9.'    guibg='.yellow.'  guisp='.yellow.'  gui=bold       ctermfg=121   ctermbg=229   cterm=standout'
 :exe  'highlight  Delimiter       guifg='.yellow.'   guibg=NONE        guisp=NONE        gui=NONE       ctermfg=229   ctermbg=NONE  cterm=NONE'
 :exe  'highlight  Statement       guifg='.magenta.'  guibg=NONE        guisp=NONE        gui=bold       ctermfg=205   ctermbg=NONE  cterm=bold'
 :exe  'highlight  SpellRare       guifg='.ui_1.'      guibg='.ui_12.'   guisp='.ui_12.'   gui=underline  ctermfg=189   ctermbg=235   cterm=underline'
 :exe  'highlight  Comment         guifg='.ui_8.'     guibg=NONE        guisp=NONE        gui=italic     ctermfg=60    ctermbg=NONE  cterm=NONE'
 :exe  'highlight  Character       guifg='.ui_3.'     guibg=NONE        guisp=NONE        gui=NONE       ctermfg=254   ctermbg=NONE  cterm=NONE'
 :exe  'highlight  TabLineSel      guifg='.ui_2.'     guibg='.ui_11.'   guisp='.ui_11.'   gui=bold       ctermfg=255   ctermbg=237   cterm=bold'
-:exe  'highlight  Number          guifg='.yellow.'   guibg=NONE        guisp=NONE        gui=NONE       ctermfg=229   ctermbg=NONE  cterm=NONE'
-:exe  'highlight  Boolean         guifg='.ui_3.'     guibg=NONE        guisp=NONE        gui=NONE       ctermfg=254   ctermbg=NONE  cterm=NONE'
+:exe  'highlight  Number          guifg='.blue.'   guibg=NONE        guisp=NONE        gui=NONE       ctermfg=229   ctermbg=NONE  cterm=NONE'
+:exe  'highlight  Boolean         guifg='.dark_green.'     guibg=NONE        guisp=NONE        gui=bold       ctermfg=254   ctermbg=NONE  cterm=NONE'
 :exe  'highlight  Operator        guifg='.magenta.'  guibg=NONE        guisp=NONE        gui=bold       ctermfg=205   ctermbg=NONE  cterm=bold'
 ":exe  'highlight  CursorLine      guifg=NONE         guibg='.ui_9.'    guisp='.ui_9.'    gui=NONE       ctermfg=NONE  ctermbg=236   cterm=NONE'
 ":exe  'highlight  ColorColumn     guifg=NONE         guibg='.ui_9.'    guisp='.ui_9.'    gui=NONE       ctermfg=NONE  ctermbg=236   cterm=NONE'
@@ -252,3 +255,7 @@ hi CocMenuSel guifg=#00cc00 gui=underline guibg=#010101
 :exe  'highlight  color13        guifg='.color13.'    guibg='.color13.''
 :exe  'highlight  color14        guifg='.color14.'    guibg='.color14.''
 :exe  'highlight  color15        guifg='.color15.'    guibg='.color15.''
+
+" Aerial
+:exe  'highlight  AerialGuide1         guifg='.ui_8.'     guibg=NONE        guisp=NONE        gui=NONE       ctermfg=60    ctermbg=NONE  cterm=NONE'
+:exe  'highlight  AerialLine           guifg='.ui_8.'     guibg=NONE        guisp=NONE        gui=italic     ctermfg=60    ctermbg=NONE  cterm=NONE'

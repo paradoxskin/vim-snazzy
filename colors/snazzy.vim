@@ -122,7 +122,7 @@ let  color15  =  '#ffccaa'
 :exe  'highlight  Conditional     guifg='.yellow.'   guibg=NONE        guisp=NONE        gui=bold       ctermfg=229   ctermbg=NONE  cterm=bold'
 :exe  'highlight  StorageClass    guifg='.blue.'     guibg=NONE        guisp=NONE        gui=bold       ctermfg=60    ctermbg=NONE  cterm=bold'
 :exe  'highlight  Todo            guifg='.yellow.'   guibg=NONE        guisp=NONE        gui=italic     ctermfg=229   ctermbg=NONE  cterm=NONE'
-:exe  'highlight  Special         guifg='.yellow.'   guibg=NONE        guisp=NONE        gui=NONE       ctermfg=229   ctermbg=NONE  cterm=NONE'
+:exe  'highlight  Special         guifg='.green.'   guibg=NONE        guisp=NONE        gui=NONE       ctermfg=229   ctermbg=NONE  cterm=NONE'
 :exe  'highlight  LineNr          guifg='.ui_8.'     guibg=NONE        guisp=NONE        gui=NONE       ctermfg=60    ctermbg=NONE  cterm=NONE'
 :exe  'highlight  StatusLine      guifg='.ui_2.'     guibg='.ui_9.'    guisp='.ui_9.'    gui=bold       ctermfg=255   ctermbg=239   cterm=bold'
 :exe  'highlight  Label           guifg='.yellow.'   guibg=NONE        guisp=NONE        gui=bold       ctermfg=229   ctermbg=NONE  cterm=bold'
@@ -255,6 +255,22 @@ hi CocMenuSel guifg=#00cc00 gui=underline guibg=#010101
 :exe  'highlight  color13        guifg='.color13.'    guibg='.color13.''
 :exe  'highlight  color14        guifg='.color14.'    guibg='.color14.''
 :exe  'highlight  color15        guifg='.color15.'    guibg='.color15.''
+hi link @color0 color0
+hi link @color1 color1
+hi link @color2 color2
+hi link @color3 color3
+hi link @color4 color4
+hi link @color5 color5
+hi link @color6 color6
+hi link @color7 color7
+hi link @color8 color8
+hi link @color9 color9
+hi link @colora color10
+hi link @colorb color11
+hi link @colorc color12
+hi link @colord color13
+hi link @colore color14
+hi link @colorf color15
 
 " Aerial
 :exe  'highlight  AerialGuide1         guifg='.ui_8.'     guibg=NONE        guisp=NONE        gui=NONE       ctermfg=60    ctermbg=NONE  cterm=NONE'
